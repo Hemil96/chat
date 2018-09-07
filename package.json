@@ -4,7 +4,8 @@
   "description": "Minimal real time app with node js and socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/Hemil96/chat/issues"
   },
-  "homepage": "https://github.com/Hemil96/chat#readme"
+  "homepage": "https://github.com/Hemil96/chat#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  }
 }
