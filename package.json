@@ -1,0 +1,19 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Minimal real time app with node js and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemil96/chat.git"
+  },
+  "author": "hemil96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemil96/chat/issues"
+  },
+  "homepage": "https://github.com/Hemil96/chat#readme"
+}
